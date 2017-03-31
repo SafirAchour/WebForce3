@@ -1,5 +1,6 @@
 body{
-    background:#6D4C41;
+    background:white;
+    margin: 0px;
     
 }
 
@@ -8,9 +9,8 @@ body{
     height: auto;
     max-width: 1000px;
     margin: 30px auto 0px auto;
-    background-color: white;
+    background-color: #A1887F;
     padding: 10px;
-    border-radius: 20px;
 }
 
 #slogan {
@@ -30,7 +30,7 @@ body{
 .topheader > p {
     border: 2px solid black;
     text-align: right;
-    font-family: 'Damion', cursive;
+    font-family: 'Caudex', serif;
     font-size: 18px;
     padding-right: 10px; 
 }
@@ -52,7 +52,8 @@ header{
 
 .logo img{
     width: 30%;
-    float: left;  
+    float: left; 
+    background: #A1887F;
 }
 
 nav{
@@ -68,7 +69,7 @@ nav ul li {
 }
 
 nav ul li a {
-    font-family: 'Damion', cursive;
+    font-family: 'Caudex', serif;
     font-size: 20px;
     color: black;
     line-height: 125px;
@@ -100,6 +101,7 @@ section article {
     width: 40%;
     float: left;
     padding-left: 15px;
+    font-family: 'Walter Turncoat', cursive;
 }
 
 /*-----------PARTENAIRES------------*/
@@ -115,6 +117,13 @@ section article {
     float: left;
     height: 270px;
     margin-top: 20px;
+    filter: grayscale(100%);
+    transition-property: filter;
+    transition-duration: 1s;
+}
+
+.partenaires img:hover{
+    filter:grayscale(0%)
 }
 
 /*---------------FOOTER-------------*/
@@ -122,52 +131,77 @@ footer  {
     width: 100%;
     height: auto;
     float: left;
-    padding-top: 20px;
-    /*background-color: #212121;*/
+    padding-top: 10px;
+    background-image: linear-gradient(white,#A1887F);
     /*background-image:linear-gradient(white,#8D6E63);*/
 }
+.foot{
+    width: 100%;
+    height: auto;
+    max-width: 1000px;
+    margin: 30px auto 0px auto;
+    padding: 10px;
+    
+}
 
-
+/*---------MAP-----------------*/
 .map {
     width: calc(100% / 3);
     float: left;
     padding-bottom: 10px;
+    padding-left: 10px;
 }
-
+/*----------NEWSLETTER-------------*/
 .newsletter {
     width: calc(100% / 3 - 15px);
     float: left;
+    padding-left: 10px;
 }
 
 legend{
-    color: white;
+    color: black;
 }
 
 fieldset{
-    height: 183px;
+    height: 230px;
     border-radius: 10px;
 }
 
 .newsletter input{
-    margin-bottom: 10px;
-    width: 90%;
-    height: 30px;
+    margin-bottom: 8px;
+    width: 100%;
+    height: 43px;
     border-radius: 5px;
 }
-/*--------------------------------------------------------------------------------                                    CONTACT                                         --------------------------------------------------------------------------------*/
+
+.newsletter input:hover{
+    color: black;
+    background: darkgoldenrod;
+}
+/*--------------------------CONTACT-----------------------------------*/
 
 .contact {
-    width: calc(100% / 3 - 15 px);
+    width: 31%;
     float: left;
+    padding-left: 10px;
+    font-size: 18px;
+    font-family: 'Caudex', serif;
 }
 h3{
-    color: white;
+    color: black;
 }
 .contact a{
-    color: red;
+    color: black;
 }
 .contact a:hover{
-    color: white;
+    color: darkgoldenrod;
 }
 
+span{
+    color: black;
+}
+.contact i {
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
 

@@ -1,0 +1,97 @@
+<!DOCTYPE>
+<html>
+   
+    <head>
+       <meta charset="utf-8">
+       <title>Structure HTML</title>
+       <link rel="stylesheet" href="css/style.css"> 
+       <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+       <link href="https://fonts.googleapis.com/css?family=Patrick+Hand" rel="stylesheet">
+       
+    </head>
+    
+    
+    <body>
+       <main>
+           <header>
+               <section>
+                  <img src="img/bouchefumé.jpg" alt="">
+               </section>
+
+               <ul>
+                   <li class="current"><a href="" target="_blank" title="Acceuil">Acceuil</a></li>
+                   <li><a href="" target="_blank" title="Présentation">Présentation</a></li>
+                   <li><a href="" target="_blank" title="Contact">Contact</a></li>
+               </ul>
+           </header>
+
+           <section>
+              <h2> GO CHICHA LIVRAISON A DOMICILE </h2>
+
+              <aside>
+                 <!--Image d'illustration-->
+                 <img src="img/chich2.jpg" alt="">
+
+              </aside>
+
+               <article>
+                  <!-- Texte d'introduction-->
+                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita repudiandae totam, non rerum recusandae atque corporis quisquam soluta incidunt eos quaerat molestias voluptates tempora magni ipsum dolorum sint accusantium! Porro.</p>
+               </article>
+
+           </section>
+           
+
+           <footer>
+
+               <section class="gmap">
+                  <!--Mettre en place une carte Google Map-->
+                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d83947.60836948821!2d2.2152483158971545!3d48.88942334450155!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66da249224875%3A0x6abc915a5042eb9c!2sPorte+des+Lilas!5e0!3m2!1sfr!2sus!4v1490693593722" width="100%" height="220" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+               </section>
+
+               <br>
+
+               <section class="newsletter">
+                  <!--Formulaire de Newsletter | Nom, Prénom et Email-->
+                  <form name="newsletter" action="newsletter.php" method="POST">
+                  <fieldset> 
+                        <legend> Abonne toi à la Newsletter</legend>
+                        <br>
+                      <input type="text" name=" Nom " placeholder="Saisissez votre nom">
+                      <input type="text" name=" Prénom " placeholder="Saisissez votre Prénom">
+                      <input type="text" name="Email" placeholder="Saisissez votre email"required>
+                      <input type="submit" value="Envoyer">
+
+
+                  </fieldset>
+
+                  </form>
+
+               </section>
+
+               <section class="contact">
+                  <!--Coordonnées et contact-->
+                  <h3><strong> Coordonnées et contact</strong></h3>
+                  <i class="fa fa-phone" aria-hidden="true"></i>     <a href="tel:+33758607261">07.58.60.72.61</a>
+                  <br>
+                  <i class="fa fa-envelope-o" aria-hidden="true"></i>    <a href="mailto:wf3@hl-media.fr">wf3@hl-media.fr</a>
+                  <br>
+                  <i class="fa fa-snapchat-square" aria-hidden="true"></i> gochicha75
+                  <br>
+                  <i class="fa fa-instagram" aria-hidden="true"></i> gochicha75
+                  
+                  
+                  
+
+               </section>
+
+           </footer>
+        </main>
+    </body>
+
+
+
+
+</html>
