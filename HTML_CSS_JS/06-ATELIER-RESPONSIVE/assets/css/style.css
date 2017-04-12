@@ -1,0 +1,87 @@
+/*-------------POUR LES ECRANS LARGES -------------------*/
+.m {
+    margin: 0 !important;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.opacity{
+    opacity: 0.9;
+    background-color: black;
+}
+
+
+
+.relative {
+    position: relative;
+}
+
+.clear {
+    clear: both;
+}
+/*----BODY------*/
+body{
+    background-image: url(../img/02.jpg);
+    background-attachment: fixed;
+}
+
+/*---------CONTAINER FULL --------------*/
+.container-full{
+    position: relative;
+    overflow: hidden;
+}
+/*--------------HEADER--------------*/
+header img{
+    width: 100%;
+    100vh;
+    object-fit: cover;
+}
+
+/*--NAV-----*/
+header nav{
+    width: 100%;
+    position: absolute;
+    top: 5%;
+    background-color: burlywood; 
+    opacity: 0.8;
+}
+header nav ul{ 
+    
+}
+header nav ul li {
+    display: inline-block;
+    margin: auto; 
+    margin-left: 20%;
+}
+header nav ul li a {
+    color: black;
+    
+}
+
+/*-----------NOS VIDEOS---------------*/
+
+#NOS-VIDEOS{
+    
+}
+
+iframe{
+    margin-top: 5px;
+}
+
+/*-----------NOS PHOTOS--------------*/
+
+#NOS-PHOTOS{
+    
+}
+
+img{
+
+}
+
+/*------------FOOTER-----------*/
+
+h3{
+    margin-left: 45.5%;
+}

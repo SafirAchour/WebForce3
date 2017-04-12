@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+   
+    <meta charset="UTF-8">
+    <title> GO CHCIHA RESPONSIVE</title>
+    
+    <!--Pour Internet Explorer :
+    s'ssurer qu'il utilise la derniere version du moteur de rendu.-->
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    
+    <!--Affichage du site sans zoom, initialisé à 100%-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    
+    
+    <!-- Styles CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Patrick+Hand" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    
+    
+    <!-- HTML5 Shiv -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" integrity="sha256-3Jy/GbSLrg0o9y5Z5n1uw0qxZECH7C6OQpVBgNFYa0g=" crossorigin="anonymous"></script>
+    
+</head>
+
+
+<body>
+     <!-- Le Container va inclure l'ensemble de nos lignes et colonnnes -->
+     <!-- Bootstrap propose 2 container : .container et le .container-full -->
+    <main class="container pad">
+           <header class="col-xs-12 marge">
+             
+                <div class="row">
+                    <section class="col-xs-12">
+                       <img src="img/bouchefumé.jpg" class="img-responsive logo" alt="Responsive image">
+                    </section>
+
+                    <nav class="col-xs-12">
+                       <ul class="nav nav-pills">
+                          <li role="presentation" class="active"><a href="#">Accueil</a></li>
+                          <li role="presentation"><a href="#">Présentation</a></li>
+                          <li role="presentation"><a href="#">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+           </header>
+           
+        <div class="row">
+            <div class="col-lg-12">
+               <section>
+                <h2> GO CHICHA LIVRAISON A DOMICILE </h2>
+                  <div class="col-md-6">
+                      <aside>
+                         <!--Image d'illustration-->
+                         <img src="img/chich2.jpg" alt="">
+
+                      </aside>
+                    </div>
+                    <div class="col-md-6">
+                       <article>
+                          <!-- Texte d'introduction-->
+                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita repudiandae totam, non rerum recusandae atque corporis quisquam soluta incidunt eos quaerat molestias voluptates tempora magni ipsum dolorum sint accusantium! Porro.</p>
+                       </article>
+                   </div>
+
+               </section>
+            </div>
+        </div>
+
+                <div class="row">
+                  <div class="col-lg-12">
+                   <footer>
+                        <div class="col-md-4">
+                           <section class="gmap">
+                              <!--Mettre en place une carte Google Map-->
+                             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d83947.60836948821!2d2.2152483158971545!3d48.88942334450155!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66da249224875%3A0x6abc915a5042eb9c!2sPorte+des+Lilas!5e0!3m2!1sfr!2sus!4v1490693593722" width="100%" height="220" frameborder="0" style="border:0" allowfullscreen></iframe>
+                           </section>
+                        </div>
+
+                        <div class="col-md-4">
+                           <section class="newsletter">
+                              <!--Formulaire de Newsletter | Nom, Prénom et Email-->
+                              <form name="newsletter" action="newsletter.php" method="POST">
+                              <fieldset> 
+                                    <legend> Abonne toi à la Newsletter</legend>
+                                  <input type="text" name=" Nom " placeholder="Saisissez votre nom">
+                                  <input type="text" name=" Prénom " placeholder="Saisissez votre Prénom">
+                                  <input type="text" name="Email" placeholder="Saisissez votre email"required>
+                                  <input type="submit" value="Envoyer">
+                              </fieldset>
+                              </form>
+                           </section>
+                       </div>
+                        <div class="col-md-4">
+                           <section class="contact">
+                              <!--Coordonnées et contact-->
+                              <h3><strong> Coordonnées et contact</strong></h3>
+                              <i class="fa fa-phone" aria-hidden="true"></i>     <a href="tel:+33758607261">07.58.60.72.61</a>
+                              <br>
+                              <i class="fa fa-envelope-o" aria-hidden="true"></i>    <a href="mailto:wf3@hl-media.fr">wf3@hl-media.fr</a>
+                              <br>
+                              <i class="fa fa-snapchat-square" aria-hidden="true"></i> gochicha75
+                              <br>
+                              <i class="fa fa-instagram" aria-hidden="true"></i> gochicha75
+                           </section>
+                       </div>
+                   </footer>
+                </div>
+                </div>
+
+
+
+       <!-- Contenu HTML -->
+
+        <!-- jQuery -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+
+
+        <!-- Bootstrap JS -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    </main>
+</body>
+</html>

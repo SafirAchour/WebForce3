@@ -1,0 +1,16 @@
+
+
+body{
+
+  background-image: url(../img/3.jpg);
+  background-size: 800px no-repeat;
+}
+
+.rotate{
+  width: 200%;
+  height: 400px;
+  transform: skewY(15deg);
+  background-color: darkgoldenrod;
+}
+
+sec
