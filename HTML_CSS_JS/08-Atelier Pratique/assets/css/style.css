@@ -1,0 +1,111 @@
+/*----------BODY----------*/
+body{
+    background-color: black;
+}
+
+container-full{
+    
+}
+/*----------HEADER----------*/
+header{
+    
+}
+
+header nav{
+    
+}
+
+header nav ul{
+   
+    
+}
+
+header nav ul li{
+    color: white;
+    margin-left: 50px;;
+}
+
+header nav ul li a{
+ 
+    
+}
+
+header nav ul li a:hover{
+    color: blue;
+    
+}
+
+header i {
+   
+}
+/*--------------SECTION--------------*/
+
+article{
+    text-align: center;
+    color: white;
+
+}
+article h1{
+    
+}
+
+article h2{
+    
+}
+article a{
+    
+}
+
+article p{
+    
+}
+article img{
+   display: block;
+    margin: auto;
+    vertical-align: center;
+}
+
+/*------------ASIDE-------------*/
+.rm{
+    margin: 0 !important;
+}
+.rp{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+aside{
+    background-color: white;    
+    padding-top: 30px;
+}
+aside img{
+    margin:auto;
+}
+
+aside div:nth-of-type(2){
+    width: 300px;
+    text-align: center;
+    display: block;
+    vertical-align: center;
+    margin: auto;
+}
+
+/*---------FOOTER-----------*/
+
+footer h2 {
+    text-align: center;
+    color: white;
+}
+
+footer form{
+    margin:auto;
+   
+
+
+}
+
+
+footer button{
+    margin: auto;
+}
+
+
