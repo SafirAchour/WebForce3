@@ -19,6 +19,7 @@
     
     <!-- Styles CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300" rel="stylesheet">
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     
@@ -33,8 +34,8 @@
      <!-- Bootstrap propose 2 container : .container et le .container-full -->
     <div class="container-full">
         <header>
-            <!-- Création d'une ligne -->
-               <nav class="navbar navbar-inverse">
+              <!------------NAVBAR----------->
+               <nav class="navbar navbar-inverse rm">
                   <div class="container">
                     <div class="navbar-header">
                       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -59,7 +60,8 @@
                     </div>
                   </div>
                 </nav>
-                <nav class="navbar navbar-inverse">
+                <!-----------NAVBAR2----------->
+                <nav class="navbar navbar-inverse rm">
                   <div class="container">
                       <ul class="nav navbar-nav">
                         <li><a href="#"><img src="assets/img/menu/iPhone7.png" class="img-responsive col-" alt="iPhone7"></a></li>
@@ -77,13 +79,13 @@
             <section class="col-xs-12">
                 <article>
                     <h1>iPhone</h1>
-                    <br>
+                    
                     <h2>Numéro 7</h2>
-                    <br>
+                    
                     <a href="">En savoir plus>> </a> <a href=""> Acheter></a>
-                    <br>
+                
                     <p>Ou rendez-vous dés aujourd'hui sans un Apple Store.</p>
-                    <img src="assets/img/hero_large.jpg" class="img-responsive rm" alt="hero_large">
+                    <img src="assets/img/hero_large.jpg" class="img-responsive" alt="hero_large">
                 </article>
             </section>
         </div>
@@ -97,37 +99,36 @@
                     <br>
                     <p>Echangez votre smartphone contre un iPhone neuf dans un Apple Store et bénéficiez de mensualités réduites.</p>
                     <br>
-                    <a href="">Comment ça marche ? > </a>
+                    <a href="">Comment ça marche ? ></a>
                 </div>
             </aside> 
         
-        
+<!---------------------CONTACT------------------------------>        
         <footer>
            <h2>Contact</h2>
             <div class="row">
                 <form>
                   <div class="form-group col-xs-12">
-                    <label for="exampleInputEmail1"></label>
                     <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Nom et Prénom">
                   </div>
-                  <div class="form-group col-xs-6">
-                    <label for="exampleInputPassword1"></label>
+                  <div class="form-group col-xs-6 pdgR ">
                     <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Email">
                   </div>
-                  <div class="form-group col-xs-6">
-                    <label for="exampleInputPassword1"></label>
+                  <div class="form-group col-xs-6 pdgL">
                     <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Téléphone">
                   </div>
                   <div class="form-group col-xs-12">
-                    <label for="exampleInputPassword1"></label>
                     <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Sujet">
                   </div>
                   <div class="form-group col-xs-12">
-                    <label for="exampleInputPassword1"></label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Votre Message">
+                    <input type="password" class="form-control" rows="5" placeholder="Votre Message">
                   </div>
                 </form>
-                <button type="submit" class="btn btn-default">Envoyer ma demande</button>
+                <br>
+                <br>
+                <div class="col-xs-12 text-center">
+                <button type="submit" class="btn btn-primary text-center" value= "envoyer ma demande">Envoyer ma demande</button>
+                </div>
             </div>
         </footer>
     </div>  

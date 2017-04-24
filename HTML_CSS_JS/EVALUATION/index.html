@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>EVALUATION MY UNICORN</title>
+    
+    <!--Style CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!--POLICE-->
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+    
+    <!--FONTAWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+
+
+<body>
+    <main>
+    <!--Partie 1 : Menu / Header / Base
+    Les items du menu deviennent rose clair au survol de la souris.
+    Une ombre portée se trouve autour du bloc de contenu.
+    -->
+  <!------NAV ROSE-------->
+        <div class="nav">
+          
+           <!--Partie 2 : Contenu
+            Les liens du menu sont des ancres vers les trois blocs de contenu : Le principe, Nos licornes et Nous trouver.
+            -->
+            
+            <p>MyUnicorn</p>
+            <nav>
+                <ul>
+                    <li><a href="">LE PRINCIPE</a></li>
+                    <li><a href="">NOS LICORNES</a></li>
+                    <li><a href="">NOUS TROUVER</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+        <h1>Un jour, une licorne</h1>
+        <img  class="rainbow" src="img/rainbow.png" alt="rainbow">
+        
+        <!---------------CONTAINER------------->
+        <div class="container">
+         
+          <!---------------HEADER------------->
+          <header>
+                <h2><i class="fa fa-star-o" aria-hidden="true"></i> Le principe</h2>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dictum dapibus ante, eu aliquam ante euismod eleifend. Ut malesuada augue ut luctus pellentesque. Aenean id varius ipsum. Nunc malesuada ex ut ipsum interdum vestibulum. Integer facilisis finibus orci, sit amet pretium diam placerat vitae. Nunc auctor tincidunt mollis. Nullam quis turpis sed lorem elementum semper eget semper risus. In nec mauris aliquam, congue metus euismod, cursus leo. Vivamus laoreet commodo leo, ut cursus justo blandit in. Aenean pretium mi a auctor pulvinar. Mauris sodales sollicitudin sodales. Sed mollis sed lectus id facilisis. Quisque pharetra a purus eget porttitor. Proin rhoncus risus non mauris iaculis sodales. Pellentesque euismod dui erat, non sodales ipsum sollicitudin sed.
+
+                Donec nisi eros, luctus id pretium eget, consequat elementum risus. Fusce eleifend lacinia orci eu iaculis. Vestibulum vestibulum justo quis commodo congue. Aliquam purus leo, dictum in nisl at, pellentesque bibendum mi. Nulla convallis mi eget nisl convallis dictum. Vestibulum a massa lacus. Aenean quis enim diam.</p>
+          </header>
+          <!--Partie 3 : Les images
+            Les images sont entourées de balises <figure> et les noms des licornes se trouvent dans
+            des balises <figcaption>. Un effet de zoom en CSS 3 s’effectue au survol de l’image.
+            -->
+          <section>
+             <h2><i class="fa fa-star-o" aria-hidden="true"></i> Nos licornes</h2>
+             
+                 <figure>
+                      <img src="img/unicorns/photo1.jpg" alt="">
+                      <figcaption><p>Lulu Confetty</p></figcaption>
+                 </figure>
+
+                  <figure>
+                      <img src="img/unicorns/photo2.jpg" alt="">
+                      <figcaption><p>Lapillon Magik</p></figcaption>
+                 </figure>
+
+                 <figure>
+                      <img src="img/unicorns/photo3.jpg" alt="">
+                      <figcaption><p>El Ninjacorn</p></figcaption>
+                 </figure>
+
+                 <figure>
+                      <img src="img/unicorns/photo4.jpg" alt="">
+                      <figcaption><p>Sweety Candy</p></figcaption>
+                 </figure>
+
+          </section>
+          
+<!--------------------FOOTER----------------------------->
+                   
+          <footer>
+<!--------------------MAP----------------------------->             
+              <h2><i class="fa fa-star-o" aria-hidden="true"></i> Nous trouver</h2>
+              <div>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.187282919936!2d2.354114115793349!3d48.85463900892467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671fd10fa77a9%3A0xb2bbd365849898f2!2sWebforce3!5e0!3m2!1sfr!2sfr!4v1492602704101" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+              </div>
+              
+              <div>
+                    <h3>Notre élevage de licorne est situé au :</h3>
+                    <p>
+                        18 Rue Geoffroy l'Asnier 
+                        <br>
+                        75004 Paris 
+                        <br>
+                        01.23.45.67.89 
+                    </p>
+                  
+<!--------------------NEWSLETTER----------------------------->  
+                                 
+                  <h3>Newsletter</h3>
+                  <p>Abonnez-vous simplement à notre newsletter mensuelle !</p>
+                  
+                  <form action="newsletter.php" method="post">
+                   
+                    <input type="text" name="votre@email.fr" placeholder="votre@email.fr">
+                    <br>
+                    <input type="submit" style="background: #EB43A3; border: 2px; cursor:pointer" value="Valider">
+                    
+                  </form>
+                  
+              </div>
+              
+          </footer>
+          
+          
+           
+
+        </div>
+        
+        <div class="down">
+              
+          </div>
+        
+        
+   </main>
+    
+</body>
+</html>

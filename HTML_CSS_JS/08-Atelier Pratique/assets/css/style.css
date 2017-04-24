@@ -11,8 +11,9 @@ header{
     
 }
 
-header nav{
-    
+header nav:nth-of-type(2){
+   background-color:#141414; 
+    text-align: center;
 }
 
 header nav ul{
@@ -22,7 +23,6 @@ header nav ul{
 
 header nav ul li{
     color: white;
-    margin-left: 50px;;
 }
 
 header nav ul li a{
@@ -38,6 +38,16 @@ header nav ul li a:hover{
 header i {
    
 }
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
 /*--------------SECTION--------------*/
 
 article{
@@ -46,21 +56,23 @@ article{
 
 }
 article h1{
-    
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px
 }
 
 article h2{
-    
+  font-family: 'Roboto Condensed',sans-serif;
+    font-weight: 300;
+    font-size: 60px;
 }
 article a{
-    
+    font-size: 20px;
 }
 
 article p{
-    
+    font-size: 17px;
 }
 article img{
-   display: block;
     margin: auto;
     vertical-align: center;
 }
@@ -82,30 +94,86 @@ aside img{
 }
 
 aside div:nth-of-type(2){
-    width: 300px;
+    width: 450px;
     text-align: center;
     display: block;
     vertical-align: center;
     margin: auto;
 }
-
+aside h3{
+    font-size: 35px;
+}
+aside p {
+    font-size: 20px;
+}
+aside a {
+    font-size: 25px; 
+}
 /*---------FOOTER-----------*/
 
 footer h2 {
     text-align: center;
     color: white;
+    font-family: 'Roboto Condensed',sans-serif;
+    font-size: 50px;
+    font-weight: 300;
 }
 
 footer form{
-    margin:auto;
-   
-
-
-}
-
-
-footer button{
+    width: 50%;
     margin: auto;
+   
+}
+footer div{
+    width: 100%;
+}
+footer div input{
+
+}
+footer button{
+  margin-top: 10px;
 }
 
+.pdgL{
+   padding-left: 7.5px;
+}
+.pdgR{
+    padding-right: 7.5px;
+}
 
+/*---------------MEDIAQUERIES--------------------*/
+
+
+/*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+        nav:nth-of-type(2)  ul li {
+            width: calc(100% / 3);
+        }
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+        nav:nth-of-type(2)  ul li {
+            width: calc(100% / 3)
+        }
+
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+    
+
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+        
+    }

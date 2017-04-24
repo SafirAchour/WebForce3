@@ -1,0 +1,177 @@
+/*
+Polices par défaut : 
+	font-family: Arial, sans-serif;
+
+Police des titres :
+	font-family: 'Courgette', cursive;
+	
+Etoiles dans les titres : 
+    FontAwesome 4.6 => fa-star-o
+
+Couleurs : 
+	barre de menus : #C55394
+	hover menu : #EB43A3
+    titre h1 : #C55394
+    autres titres : #EB43A3
+	footer : #E577B5
+	noir : #333
+	blanc : #FFF
+*/
+
+body{
+    background-image: url(../img/background.png);
+    margin: 0;
+}
+
+main{
+ position: relative;
+    
+}
+/*------------NAV ROSE------------*/
+.nav{
+    width: 100%;
+    background-color: #C55394;
+    top: 0px;
+}
+
+.nav p {
+    display: inline-block;
+    margin-left: 5px;
+    color: white;  
+    font-family: 'Courgette', cursive;
+}
+
+nav {
+    display: inline-block;
+    margin-right: 5px; 
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    color: white; 
+    
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    
+}
+
+nav ul li:hover {
+    color: #EB43A3;
+    
+}
+/*------------------FIN DE NAV ------------------*/
+
+.rainbow {
+    position: absolute;
+    top: 50px;
+    left: 570px;
+    
+    
+}
+
+h1{
+   color: #C55394;
+    text-align: center;
+    margin-top: 135px;
+    font-family: 'Courgette', cursive;
+}
+/*-----------------Container-----------------------*/
+
+.container{
+    width: 1000px;
+    margin: auto;
+    background: white;
+    box-shadow: 0px 0px 30px #333;
+    border-radius: 5px;
+    padding: 5px;
+    
+}
+
+/*-------------------HEADER-----------------------*/
+
+header{
+    
+}
+
+h2{
+    color: #EB43A3;
+    font-family: 'Courgette', cursive;
+   padding-top: 50px;
+    width: auto;
+}
+
+header p{
+    
+}
+
+/*---------------SECTION IMAGE----------------------*/
+
+section{
+    width: 100%;
+}
+figure{
+    position: relative;
+    width: calc(100% / 4 - 10px);
+    float: left;
+    display: inline-block;
+    margin: 0 5px ;
+}
+
+figure img {
+  width: 100%;  
+}
+
+figure figcaption{
+    position: absolute;
+    text-align: center;
+    /* margin: auto; */
+    bottom: 5px;
+    width: 100%;
+    background-color: black;
+    opacity: 0.8;
+}
+
+figure figcaption p {
+    color: white;
+}
+
+/*-------------------FOOTER-----------------*/
+footer{
+    width: 100%;
+    height: 750px;
+}
+
+footer h2 {
+    margin-top: 50px;
+}
+
+footer iframe {
+    width: 60%;
+    float: left;
+    margin: 10px;
+}
+
+footer div:nth-of-type(2){
+    margin-top: 20px;
+}
+
+footer h3 {
+    color: #E577B5;
+    font-family: 'Courgette', cursive;
+}
+
+footer input{
+    margin: 5px;
+}
+
+.down{
+    width: 100%;
+    height: 100px;
+    background:#C55394
+}
+/*----------------------ZOOM----------------*/
