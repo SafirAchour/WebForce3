@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- Encodage pour les accents -->
+    <meta charset="UTF-8">
+    
+    <!-- Titre de la Page -->
+    <title>Exercice 4 jQuery</title>
+    
+    <!-- Pour Internet Explorer : S'assurer qu'il utilise la dernière version du moteur de rendu -->    
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    
+    <!-- HTML5 Shiv -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js" integrity="sha256-sqQlcOZwgKkBRRn5WvShSsuopOdq9c3U+StqgPiFhHQ=" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+   <form id="MonFormulaire" method="post" action="connexion.php">
+       <input type="text" name="email" placeholder="Email" /><br /><br />
+       <input type="text" name="mdp" placeholder="Mot de passe" /><br /><br />
+       
+       <input type="submit" id="submit" value="connexion" />
+   </form>
+   
+   <!-- CONSIGNE : avec l'aide de jQuery , vous devrez :
+   
+       1. a l'aide d'une API de géolocalisation , vous affichez dans un paragraphe du formulaire l'adresse IP ainsi que la ville et/ou le code postal de l'utilisateur connecté.
+       
+       //- utilisation de JSONP : geoip.nekudo.com || ip-api.com
+       
+       -->
+    
+    
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+    
+    <!-- js -->
+    <script src="assets/js/09-Exercice4.js"></script>
+    
+</body>
+</html>
