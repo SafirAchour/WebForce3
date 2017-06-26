@@ -1,0 +1,18 @@
+var choix = $('select');
+var text = $('textarea');
+
+$(function(){
+    $('#adoption').on('submit',function(event){
+        event.preventDefault();
+        $('.text-danger').remove();
+        
+        if(text.val().length < 15){
+            $(this).css("border", "1px solid red");
+            $("<p class='text-danger'> N'\noubliez pas de saisir une raison d'adoption de plus de 15 caractères. </p>")
+            .appendTo(form);
+            
+        }else{
+            $(this).replaceWith('<div class="alert alert-success"> Votre demande a bien été envoyée ! Nous vous répondrons dans les meilleurs délais.</div>');
+        }
+    })
+});

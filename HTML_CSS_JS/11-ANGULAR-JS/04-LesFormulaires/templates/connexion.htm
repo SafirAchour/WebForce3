@@ -1,0 +1,48 @@
+<section class="row">
+<div class="col-xs-12">
+    <!--
+    PLUSIEURS VARIABLES PERMETTENT DE VERIFIER L'ETAT DES CHAMPS D'UN FORMULAIRE : iL S'agit de boolean : vrai ou faux.
+    $untouched : le champ n'a pas encore été touché.
+    $touched : le champ a été touché.
+    $pristine : le champ n'a pas encore été modifié.
+    $invalid : le contenu du champ n'est pas valide.
+    $valid : le contenu du champ est valide.
+    
+    >> https://codepen.io/sevilayha/pen/xFcdI
+    >> Observez le HTML avec votre Inspecteur, AngularJS ajoute automatiquement des classes autour du champ.
+    -->
+    <form novalidate name="connexion" class="form-horizontal">
+        <fiedset>
+            <legend>Connexion</legend>
+            
+            <!--Email-->
+            <div class="form-group">
+                <label class="col-md-4 control-label">Email</label>
+                <div class="col-md-8">
+                    <input type="email" required name="email" class="form-control" placeholder="email">
+                    <p class="text-danger"></p>
+                </div>
+            </div>
+            
+            <!--Mot de passe-->
+            <div class="form-group">
+                <label class="col-md-4 control-label">Mot de passe</label>
+                <div class="col-md-8">
+                    <input type="password" required name="mdp" class="form-control" placeholder="**********">
+                </div>
+            </div>
+            
+            <!-- Bouton d'envoi -->
+            <div class="form-group">
+                <div class="col-md-8">
+                    <button type="submit"  class="btn btn-primary" value="connexion">
+                    Connexion
+                    </button>
+                </div>
+            </div>
+            
+        </fiedset>
+    </form>
+</div>
+
+</section>

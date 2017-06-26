@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+ 
+  <meta charset="UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <title>Les Routes</title>
+   
+    
+    
+     <!-- bootstrap cdn -->
+     
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    
+    <!--ANGULAR-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.min.js" integrity="sha256-3SrLjPeRPa1ofM280r+OMcUjJZKLWJHr6SRtRu3dRb0=" crossorigin="anonymous"></script>
+    
+    <!--Route Angular-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular-route.min.js" integrity="sha256-SUsNyx9Kr9rHA3thrzSefdS883z1Q0ZOLXPF3p2Tt+o=" crossorigin="anonymous"></script>
+    
+    <!-- application angular -->
+    <script src="js/main.js"></script>
+ 
+   
+</head>
+
+<body ng-app="mainApp" ng-controller="mainController">
+
+    <main class="container">
+       <!-- permet a notre application de devenir une SPA , cette directive peut exister qu'une seule fois dans l'application.
+       Grace a ng-view , les differentes vues de notre application seront rendu ici .
+       Plus d'informations https://www.w3schools.com/angular/angular_routing.asp -->
+       <div ng-view></div>
+        
+    </main>
+
+
+    
+ 
+
+
+  
+    
+   
+    
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Angular vs jQuery</title>
+    
+</head>
+<body>
+   <p>
+       <input type="text" name="nomcomplet" placeholder="Saisissez votre Nom et Prénom...">
+   </p>
+   <h3>Bonjour !</h3>
+   
+   <!-- Intégration de jQuery-->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+   
+    <script>
+        
+        
+        $(function(){
+            $('input[name=nomcomplet]').on('keyup',function(event){
+                $('h3').text('Bonjour ' + $(this).val() + '!');
+                
+            });
+        });
+        
+        
+        
+        
+        
+    </script>
+   
+   <!-- Intégration de jQuery-->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+    
+</body>
+</html>
+
+
+
+
+
+

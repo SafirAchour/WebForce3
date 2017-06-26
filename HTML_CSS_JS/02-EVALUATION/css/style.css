@@ -1,0 +1,123 @@
+
+
+/*------------------ HEADER------------------------- */
+header {
+background-color: #061339;
+}
+
+header .navbar {
+background: none;
+border: none;
+min-height: 35px;
+height: 45px;
+}
+
+header .navbar .navbar-header h1 {
+font-family: 'Merienda', cursive;
+color: #2F4073;
+color: #fff;
+font-size: 1.8em;
+line-height: 2.4em;
+padding: 0;
+margin: 0;
+
+}
+
+header .navbar .navbar-header h1:hover {
+  color: #fff;
+}
+
+header .papierpeint {
+background: #B9CDFF url("https://i.imgsafe.org/0fa4109dc5.jpg");
+width: 100%;
+height: auto;
+padding-bottom: 35px;
+padding-top: 35px;
+}
+
+header .papierpeint h2 {
+color: #fff;
+font-size: 2.8em;
+text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+font-family: 'Merienda', cursive;
+}
+
+
+
+
+/* ---------------------MAIN----------------------------------- */
+
+h2{
+font-family: 'Merienda', cursive;
+color: #2F4073;
+}
+
+main{
+padding-top: 35px;
+}
+
+main #adoption {
+border: 1px solid #ddd;
+padding: 10px;
+border-radius: 10px;
+}
+
+
+main .carousel-caption h3 {
+font-family: 'Merienda', cursive;
+color: #fff;
+}
+
+
+
+main .carousel-inner {
+    margin-top: 25px;
+}
+
+main #basdepage {
+background-color: #ddd;
+margin-bottom: 20px;
+margin-top: 20px;
+}
+
+
+main #basdepage h2 {
+color: #061339;
+}
+
+
+main #basdepage img {
+
+  margin: 0 auto;
+  background-color: #7885A5;
+  /* Mozilla */
+  -moz-transition: background-color 1s ease-out;
+  /* WebKit */
+  -webkit-transition: background-color 1s ease-out;
+  /* Opera */
+  -o-transition: background-color 1s ease-out;
+  /* Standard */
+  transition: background-color 1s ease-out;
+}
+
+
+main #basdepage:hover img {
+  background-color: #061339;
+  /* Mozilla */
+  -moz-transition: abackground-color 0.4s ease-in;
+  /* WebKit */
+  -webkit-transition: background-color 0.4s ease-in;
+  /* Opera */
+  -o-transition: background-color 0.4s ease-in;
+  /* Standard */
+  transition: background-color 0.4s ease-in;
+}
+
+/*-------------------- FOOTER ----------------------------- */
+footer {
+  background-color: #061339;
+  color: #fff;
+}
+footer p {
+  padding-top: 10px;
+}

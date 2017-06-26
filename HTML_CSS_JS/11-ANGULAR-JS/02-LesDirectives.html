@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Les Directives</title>
+    
+    <!-- Intégration de jQuery-->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+    
+    <!--ANGULAR-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.min.js" integrity="sha256-3SrLjPeRPa1ofM280r+OMcUjJZKLWJHr6SRtRu3dRb0=" crossorigin="anonymous"></script>
+    
+</head>
+<!--
+       LES DIRECTIVES : 
+       Chaque "directive" dans AngularJS a une mission spécifique.
+       Elles vont nous permettre de créer des intéractions avec le DOM.
+       
+        1.ng-app : signale le début de l'application Angular
+        2.ng-init : initialisation des données de l'application
+        3.ng-model : Permet de déclarer dans le model, une "variable"
+        4.ng-repeat : repete les éléments du html pour chaque élément d'une collection.(boucle)
+-->
+       
+<body ng-app>
+  <!-- ng-init : permet d'assigner des variables à notre Application. -->
+  <div ng-init="contacts =[{'prenom':'Hugo','nom':'LIEGEARD'},{'prenom':'Karim','nom':'IHADADENE'},{'prenom':'Adrien','nom':'CENTONZE'},{'prenom':'Patrick','nom':'ISOLA'}]">
+  <p><u>Liste de nos noms et Prénoms</u></p>
+  <ul>
+      <li ng-repeat ="contact in contacts">
+          {{contact.prenom}} <strong>{{contact.nom}}</strong>
+      </li>
+  </ul>
+  
+ </div>
+   
+   
+    
+</body>
+</html>

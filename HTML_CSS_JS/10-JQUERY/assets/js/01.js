@@ -26,6 +26,6 @@ $(function() {
 
     // -- En Jquery
     $("#TexteEnJQuery").html("Mon texte en JQ");
-    // -- En JS : 
+    // -- En JS :
     document.getElementById("TexteEnJQuery").innerHTML = "Mon texte en JS";
 });
