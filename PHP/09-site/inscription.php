@@ -3,7 +3,7 @@
 require_once('inc/init.inc.php');
 $inscription = false;    // pour ne pas afficher le formulaire une fois le membre inscrit
 
-debug($_POST);
+//debug($_POST);
 
 // Traitement du formulaire :
 if(!empty($_POST)){

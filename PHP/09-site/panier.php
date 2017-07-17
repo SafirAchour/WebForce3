@@ -2,7 +2,7 @@
 require_once 'inc/init.inc.php';
 
 //---------------------------------TRAITEMENT-----------------------------------
-debug($_POST);
+//debug($_POST);
 if(isset($_POST['ajout_panier'])){
   // si on a cliquer sur "ajouter au panier", on selectionne les infos (prix) produit en BDD :
   $resultat = executeRequete("SELECT * FROM produit WHERE id_produit = :id_produit", array(':id_produit' => $_POST['id_produit'])); // l'id du produit vient du formulaire d'ajout au panier

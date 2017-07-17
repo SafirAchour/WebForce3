@@ -12,7 +12,7 @@ $contenu_gauche .= '<div class="list-group">';
         $contenu_gauche .= '<a href="?categorie=all" class="list-group-item"> Tous </a>';
 
         while($cat = $categories-> fetch(PDO::FETCH_ASSOC)){ // boucle while car plusieurs catégories
-          debug($cat);
+          //debug($cat);
           $contenu_gauche .= '<a href="?categorie='.$cat['categorie'].'" class="list-group-item"> '.$cat['categorie'].' </a>';
 
         }
@@ -24,7 +24,7 @@ if(isset($_GET['categorie']) && $_GET['categorie'] != 'all'){
   $donnees = executeRequete("SELECT * FROM produit WHERE categorie = :categorie", array(':categorie' => $_GET['categorie'])); // on selectionne tous les produits de la catégorie choisie
 }else{
   $donnees = executeRequete("SELECT * FROM produit"); // on selectionne tous les produits
-  
+
 
 }
 while($produit = $donnees->fetch(PDO::FETCH_ASSOC)){
