@@ -1,0 +1,65 @@
+﻿phpoo/
+	site_oo/
+		explications.txt
+		vendor/
+		web/
+		src/
+		app/
+		
+-----------
+arborescence : 
+	vendor/ 	: coeur de l'application
+	web/ 		: repertoire racine (index.php, img/, photo/, font/, js, css/ etc... 
+	src/ 		: code PHP, SQL, et HTML propre à notre application
+	app/ 		: configuration de l'application
+
+----------
+Nature des fichiers: 
+	app/
+		parameters.php : Ce fichier contient les infos de connexion à la BDD. 
+	
+	vendor/
+		PDOManager.php : Cette classe représente notre connexion à la BDD et nous retourne un objet PDO, grâce 		auquel nous pourrons faire des requêtes...
+		Cette classe est un SINGLETON, cela signifie qu'il ne peut y avoir QU'UN SEUL OBJET.
+
+	src/
+		Model/
+			ProduitModel.php: Ce fichier a pour objectif de récupérer une connexion à la BDD (grâce à PDOManager) et ensuite doit etre en mesure d'effectuer toutes les requêtes concernant notre entité produit.
+(Aucune requête SQL ne devrait exister ailleurs que dans un fichier Model)
+
+	web/
+		index.php : Clé d'entrée de notre application. C'est à partir de ce fichier que le site deploie. C'est le seul fichier que notre navigateur va éxécuter.
+
+
+	src/
+	    controller/
+		 	ProduitController.php : Cette classe permet de déclencher toutes les actions sur l'entité Produit 			  	(hors action liées à l'admin du site).
+			  Le controller à 2 missions : 
+				1- Récupérer un model pour échanger avec la BDD
+				2- Afficher la bonne vue en fonction de l'action demandée
+
+
+	src/
+		View/
+			haut.inc.php
+			bas.inc.php
+			Produit/
+				boutique.php
+				fiche_produit.php
+			Nos fichiers de vue contiennent presque exclusivement du code HTML/CSS. Leur objectif est d'afficher 			les vues !! Le peu de php présent permet de dynamiser le code.
+
+	web/
+		photo/
+		css/
+		js/
+		fonts/
+
+		On récupère les dossiers
+
+
+
+	
+		
+		
+		
+	

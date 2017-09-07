@@ -1,0 +1,44 @@
+$(function () {
+
+
+$('.create_auto').on('submit', function (e) {
+
+
+  e.preventDefault();
+
+  
+  var datas = $(this).serializeArray();
+
+
+  var formatDatas = {};
+
+
+  for (var i = 0; i < datas.length; i++) {
+    formatDatas[datas[i]['name']] = datas[i]['value'];
+  }
+
+
+  createAuto(formatDatas);
+});
+
+//On créer la requete AJAX
+var createAuto = function(ab) {
+
+
+  $.ajax({
+    method: 'POST',
+    url: 'http://localhost/ab.php',
+    data: ab,
+    success: function(response) {
+      if (response.success) {
+        $('.return').append("Reussite");
+      } else {
+        $('.return').append("Echec");
+      }
+
+    }
+  });
+
+}
+
+});
